@@ -1,0 +1,208 @@
+.parent-conatiner
+{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15%;
+
+}
+
+.heading-conatiner
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task
+{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+.list
+{
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+    color: grey;
+}
+
+.add-list
+{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: grey;
+    margin: auto;
+    position: relative;
+    top: 22px;
+    right: 23px;
+
+}
+
+.fa-plus-circle
+{
+    font-size: 37px;
+    color: orangered; 
+    margin: auto;
+    position: relative;
+    top: 25px;
+    right: 23px;
+}
+
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card
+{
+    border: 1px solid rgb(233, 41, 7);
+    width: 30%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px 2px rgb(184, 180, 180);
+    
+}
+.Trip
+{
+    color: orangered;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 1.8vw;
+    margin-bottom: 5px;
+    
+}
+
+.Completed
+{
+    text-align: center;
+    color: orangered;
+    text-decoration-color: red;
+    text-decoration-line: line-through;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3vw;
+    margin-left: 8%;
+    
+}
+
+.check-container
+{
+    margin-left: 2.5%;
+}
+.check-pending-task
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3vw;
+}
+.check-box 
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.parent-container2
+{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 7%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;  
+}
+h1
+{
+    display: inline-block;
+    font-size: 3vw;
+    letter-spacing: 0.5px;
+}
+h1:before
+{
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background: grey;
+    position: relative;
+    bottom:1.5vh;
+    right: 1vw;
+}
+h1:after
+{
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background: grey;
+    position: relative;
+    bottom:1.5vh;
+    left: 1vw;
+}
+.back
+{
+    font-size: 30px;
+    color: grey; 
+    position: relative;
+    bottom: 3px;
+}
+.fa-arrow-circle-left
+{
+    font-size: 37px;
+    color: orangered;
+}
+.card-trip-to-paris
+{
+    border: 1px solid rgb(233, 41, 7);
+    width: 60%;
+    height: 380px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px 2px rgb(184, 180, 180);
+    margin: auto;
+
+}
+
+
+.container3
+{
+    width: 25vw;
+    height: 28vh;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(233, 41, 7);
+    box-shadow: 4px 4px 3px 2px rgb(184, 180, 180);
+    position: relative;
+    bottom: 43vh;
+    background-color: white;
+}
+.add-new
+{
+    margin-top: 20px;
+    color: orangered;
+    font-size: 2vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter;
+}
+.text-box
+{  
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(233, 41, 7);
+    box-shadow: 2px 2px 1.5px 1px rgb(184, 180, 180); 
+}
+.button-add
+{
+    width: 90px;
+    height: 40px;
+    background-color: orangered; 
+    border-radius:20px;
+    color: white;
+    font-size: 2.5vh;
+}
